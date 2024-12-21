@@ -1,19 +1,23 @@
-## Setup Jupyter via Longleaf On Demand
+# Setup Jupyter via Longleaf On Demand
 
 **Super Important:** Make sure you complete the [First-time setup](#first-time-setup-super-important) section at the end of this document or you will not be able able to start the coursework for CHEM 467.
 
-Once your account is approved you will be able to access Longleaf. There are many ways to access Longleaf but for this course we will be using Longleaf On-Demand.
+Once your account is approved you will be able to access Longleaf. There are many ways to access Longleaf, but we will be using Longleaf On-Demand for this course.
 
-1) Go to [https://ondemand.rc.unc.edu/pun/sys/dashboard](https://ondemand.rc.unc.edu/pun/sys/dashboard).
+## Access Jupyter via Longleaf On Demand
+
+1) Go to [https://ondemand.rc.unc.edu/pun/sys/dashboard](https://ondemand.rc.unc.edu/pun/sys/dashboard) (You may want to bookmark this site for quick access throughout the course).
 2) Sign in using your onyen. 
 3) Click on `Jupyter Notebook`.
 4) Request resources and click `Launch`.
+   - **Number of hours**: 8 hr. maximum
+   - **Number of CPUs**: 1 is sufficient
 
     ![alt text](images/jupyter_request_session.png)
 
-5) Wait for computing resources to be allocated (~1 minute).
-6) Click "Connect to Jupyter".
-7) In the **Launcher** and under the section labeled **Notebook**, click "Python3 (ipkernel)" to open a notebook running Python.
+6) Wait for computing resources to be allocated to you (~1 minute).
+7) Click `Connect to Jupyter`.
+8) In the **Launcher** and under the section labeled **Notebook**, click `Python3 (ipkernel)` to open a notebook running Python.
 
     ![alt text](images/launch_python_notebook.png)
 
@@ -75,7 +79,7 @@ In the Markdown language, we create headers and lists using the following syntax
         - Matplotlib
     ```
 
-5. Press `shift+enter` to evaluate the markdown cell. Now your notebook should look like the following:
+5. Press `shift+enter` (or click the play button `▶` in the notebook ribbon) to run the markdown cell. After running, Markdown cell should look like the following:
 
 
     ![jupyter-rendered](images/jupyter_run_markdown.png)
@@ -86,7 +90,7 @@ Jupyter notebooks allow us to run python code interactively and display the outp
 
 ### Let’s practice! 
 
-1. Paste the following interactive python code into the empty code cell below our Markdown cell.
+1. Paste the following interactive python code into the empty code cell below your Markdown cell.
 
     ```Python
     # Example of interactive python code in Jupyter
@@ -113,7 +117,7 @@ Jupyter notebooks allow us to run python code interactively and display the outp
 
     **Note:** in Python (and therefore in Jupyter code cells) the # symbol is used to denote comments that will not be interpreted as code.
 
-2. Press `shift+enter` to evaluate the code cell. Now your notebook should look like the following:
+2. Press `shift+enter` (or click the play button `▶` in the notebook ribbon) to evaluate the code cell. Now your notebook should look like the following:
 
     ![jupyter-rendered](images/jupyter_run_code.png)
 
@@ -121,7 +125,7 @@ Jupyter notebooks allow us to run python code interactively and display the outp
 
 ### How to insert and delete cells
 
-1. Insert a new cell below our markdown cell.
+1. Insert a new cell below your markdown cell.
     - click the markdown cell
     - click the `+` button in the ribbon to insert a cell below
 
@@ -145,7 +149,7 @@ This will copy all the course material into your Longleaf storage.
 
     `!git clone https://github.com/UNC-ChemNMR/CHEM-467-python-for-chemists.git`
 
-3) Run the code cell by pressing `shift+enter`
+3) Run the code cell by pressing `shift+enter` (or click the play button `▶` in the notebook ribbon).
 4) You should see an output that looks similar to this:
 
     ![jupyter_git_clone](images/jupyter_git_clone.png)
@@ -157,7 +161,7 @@ This will copy all the course material into your Longleaf storage.
 
     `!pip install py3Dmol`
 
-3) Run the code cell by pressing `shift+enter`
+3) Run the code cell by pressing `shift+enter` (or click the play button `▶` in the notebook ribbon).
 4) You should see an output that looks similar to this:
 
     ![jupyter_git_clone](images/jupyter_pip_install.png)
@@ -165,21 +169,19 @@ This will copy all the course material into your Longleaf storage.
 
 ### Navigating the course material in Jupyter
 
-1) You should now see a folder (or directory) containing all the course material:
+1) You should now see a folder (also called a directory) containing all the course material in the **File Browser** panel:
 
     ![jupyter_git_clone](images/jupyter_course_directory.png)
-
-You're are done setting up your jupyter environment for CHEM 467.
 
 2) You can double-click on the course folder to open it. 
 
     ![jupyter_git_clone](images/jupyter_course_material.png)
 
-3) In-class notebooks and homework templates are located inside the numerated sub-directories.
+3) In-class notebooks (.ipynb) and homework templates (.ipynb) are located inside the numerated sub-directories.
 
     ![jupyter_git_clone](images/jupyter_course_subdirectories.png)
 
-You are not done setting up for CHEM 467!
+You are finished setting up Longleaf and Jupyter for CHEM 467!
 
 ## Additional resources
 
@@ -187,6 +189,4 @@ Hopefully you have a good idea of how to run a Jupyter notebook in Longleaf now!
 
 - [Longleaf OnDemand](https://help.rc.unc.edu/ondemand)
 - [Jupyter notebook user interface](https://jupyter-notebook.readthedocs.io/en/latest/notebook.html#notebook-user-interface)
-
-
 
