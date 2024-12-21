@@ -1,4 +1,6 @@
-## Open Jupyter via Longleaf On Demand
+## Setup Jupyter via Longleaf On Demand
+
+**Super Important:** Make sure you complete the [First-time setup](#first-time-setup-super-important) section at the end of this document or you will not be able able to start the coursework for CHEM 467.
 
 Once your account is approved you will be able to access Longleaf. There are many ways to access Longleaf but for this course we will be using Longleaf On-Demand.
 
@@ -131,6 +133,53 @@ Jupyter notebooks allow us to run python code interactively and display the outp
     - right-click the cell
     - click `Delete Cells`
 
+
+## First-Time Setup (Super important)
+
+### Clone the class repository
+
+This will copy all the course material into your Longleaf storage.
+
+1) Create a new code cell. 
+2) Paste this code into the code cell:
+
+    `!git clone https://github.com/UNC-ChemNMR/CHEM-467-python-for-chemists.git`
+
+3) Run the code cell by pressing `shift+enter`
+4) You should see an output that looks similar to this:
+
+    ![jupyter_git_clone](images/jupyter_git_clone.png)
+
+### Install py3Dmol
+
+1) Create a new code cell.
+2) Paste this code into the code cell:
+
+    `!pip install py3Dmol`
+
+3) Run the code cell by pressing `shift+enter`
+4) You should see an output that looks similar to this:
+
+    ![jupyter_git_clone](images/jupyter_pip_install.png)
+
+
+### Navigating the course material in Jupyter
+
+1) You should now see a folder (or directory) containing all the course material:
+
+    ![jupyter_git_clone](images/jupyter_course_directory.png)
+
+You're are done setting up your jupyter environment for CHEM 467.
+
+2) You can double-click on the course folder to open it. 
+
+    ![jupyter_git_clone](images/jupyter_course_material.png)
+
+3) In-class notebooks and homework templates are located inside the numerated sub-directories.
+
+    ![jupyter_git_clone](images/jupyter_course_subdirectories.png)
+
+You are not done setting up for CHEM 467!
 
 ## Additional resources
 
