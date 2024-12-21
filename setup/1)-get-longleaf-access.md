@@ -20,13 +20,11 @@ The Longleaf cluster is a Linux-based computing system available to researchers 
 Request an account by following these steps.
 
 1) Go to [help.unc.edu](https://help.unc.edu) and log in with your onyen.
-2) Search for **Compute Cluster Access** in the catalog section of [help.unc.edu](https://help.unc.edu).
-3) Click on **Computer Cluster Access**.
-4) Click "Request Access" to complete the service request form and submit.
+2) Search for **`Compute Cluster Access`** in the catalog section of [help.unc.edu](https://help.unc.edu).
+3) Click on **`Computer Cluster Access`**.
+4) Click **`Request Access`** to complete the service request form and submit. If you are unsure how to answer a field, you can copy the form below:
 
     ![alt text](images/longleaf_request.png)
 
 
-You will be notified by email when your account is ready.
-
-To 
+You will be notified by email when your account is ready!
