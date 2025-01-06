@@ -13,6 +13,8 @@ The Longleaf cluster is a Linux-based computing system available to researchers 
 
 **Longleaf On Demand:** a user-friendly web-portal that provides a graphical interface for apps including Jupyter.
 
+**Github**: a web-based platform where developers can store, share, and collaboratively work on coding projects.
+
 </div>
 
 ## Request a Longleaf account

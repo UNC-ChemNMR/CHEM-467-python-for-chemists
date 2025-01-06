@@ -56,7 +56,7 @@ In the Markdown language, we create headers and lists using the following syntax
 
     UNC CHEM 467
 
-    This course will teach you the python fundementals required for calculating molecular descriptos, analyze data (NMR), and visualize scietific data.
+    This course will teach you the python fundamentals required for calculating molecular descriptors, analyze data (NMR), and visualize scientific data.
 
     ## Overview
 
@@ -70,11 +70,11 @@ In the Markdown language, we create headers and lists using the following syntax
         - loops
         - logic
         
-    4. Calculate molecular decriptors
+    4. Calculate molecular descriptors
         - import packages
         - RDKit
         
-    5. Analyze and visualize scietific data
+    5. Analyze and visualize scientific data
         - SciPy
         - Matplotlib
     ```
