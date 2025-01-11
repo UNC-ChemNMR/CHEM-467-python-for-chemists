@@ -1,0 +1,19 @@
+name: nmr
+channels:
+  - conda-forge
+  - bioconda
+  - jmrohwer
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - ipykernel
+  - matplotlib
+  - nmrpy
+  - rdkit
+  - xlsxwriter
+  - pandas=2.1
+  - pyarrow
+  - jupyter
+  - openpyxl
+  - py3Dmol
