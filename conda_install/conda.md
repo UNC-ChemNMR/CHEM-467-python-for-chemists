@@ -159,7 +159,7 @@ Conda will automatically install required dependencies for the packages you are 
         conda create --name rdkit rdkit pandas openbabel
     ```
 
-* Create a new NMR environment from the [`nmr_enviroment.yml`](../nmr_environment.yml) file:
+* Create a new NMR environment from the [`nmr_enviroment.yml`](nmr_environment.yml) file:
   
     ```bash
     conda env create --name nmr --file nmr_environment.yml
