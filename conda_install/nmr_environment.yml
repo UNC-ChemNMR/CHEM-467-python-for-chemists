@@ -8,11 +8,11 @@ dependencies:
   - numpy
   - scipy
   - ipykernel
-  - matplotlib
+  - matplotlib=3.8.4
   - nmrpy
-  - rdkit
+  - rdkit=2024.03.5
   - xlsxwriter
-  - pandas=2.1
+  - pandas=2.1.4
   - pyarrow
   - jupyter
   - openpyxl
