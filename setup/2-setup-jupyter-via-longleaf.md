@@ -93,26 +93,30 @@ Jupyter notebooks allow us to run python code interactively and display the outp
 1. Paste the following interactive python code into the empty code cell below your Markdown cell.
 
     ```Python
-    # Example of interactive python code in Jupyter
+# Example of interactive python code in Jupyter
+# Import packages
+%pip install --user --upgrade ipywidgets
+import numpy as np
+import matplotlib.pyplot as plt
+from ipywidgets import interact
 
-    # Import packages
-    import numpy as np
-    import matplotlib.pyplot as plt
-    from ipywidgets import interact
+# Define a function that generates a sine wave based on frequency
+def plot_sine_wave(frequency):
+    # Indent the body of the function (usually 4 spaces)
+    x = np.linspace(0, 10, 1000)
+    y = np.sin(frequency * x)
+    plt.plot(x, y)
+    plt.title(f"Sine Wave with Frequency {frequency}")
+    plt.xlabel("x values")
+    plt.ylabel("sin(frequency * x)")
+    plt.show()
 
-    # Define a function that generates a sine wave based on frequency
-    def plot_sine_wave(frequency):
-        x = np.linspace(0, 10, 1000)
-        y = np.sin(frequency * x)
-        
-        plt.plot(x, y)
-        plt.title(f"Sine Wave with Frequency {frequency}")
-        plt.xlabel("x values")
-        plt.ylabel("sin(frequency * x)")
-        plt.show()
+# Use interact to create a slider to adjust frequency
+interact(plot_sine_wave, frequency=(1, 10, 0.5))
 
-    # Use interact to create a slider to adjust frequency
-    interact(plot_sine_wave, frequency=(1, 10, 0.5))
+
+
+  
     ```
 
     **Note:** in Python (and therefore in Jupyter code cells) the # symbol is used to denote comments that will not be interpreted as code.
